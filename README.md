@@ -22,8 +22,12 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 * numpy
 ### Result:
 
-The results indicate that the class rebalance has helped to improve the results.
-After class rebalance, the model is more accurate.
-The model is not overfitting or underfitting the data.
+After done Class imbalance our model accuracies get increase both validation and train accuracies
+
+The final accuracy i get for train data is 96 and val accuracy as 85
+
+This one is may seen like a overfitting because it has nealy 11% difference, because the epoch which we used is only 30, if we increase that may val accuracy is also will increase, but that need some computational power
+
+After handled imbalance my accuracies get increased
 
 The project done by Tosif Khan
